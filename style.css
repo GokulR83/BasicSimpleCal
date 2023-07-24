@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.main{
+    width: 100%;
+    height:100vh;
+    background:linear-gradient(to right,rgb(0, 238, 198),blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    pointer-events: none;
+}
+
+.input-1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    pointer-events: auto;
+}
+.input-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#a{
+    width:200px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#a:focus{
+    
+    border: none;
+}
+#b {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:14px;
+}
+.button-style{
+    pointer-events: auto;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.button-style:hover{
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(0, 238, 198), blue);
+    transition: ease-in-out 0.3s;
+}
+
+.main:hover{
+    background: white;
+}
+#p{
+    color: black;
+}
